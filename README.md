@@ -9,7 +9,6 @@
 
 - 🌤️ Displays current weather conditions (temperature, humidity, wind speed)
 - 🌇 Search by city name
-- 🔄 Auto-refresh weather data
 - 🖥️ Intuitive Java Swing-based GUI
 - 🌍 Powered by Open‑Meteo API (no API key needed!)
 
@@ -17,12 +16,10 @@
 
 ## 📸 Screenshots
 
-> *(Replace these paths with actual screenshots once added to your repo)*
-
-![Main Interface](screenshots/main_interface.png)  
+![Main Interface](ss1.png)  
 *Clean layout with weather data*
 
-![City Search](screenshots/city_search.png)  
+![City Search](ss2.png)  
 *Search city feature in action*
 
 ---
@@ -46,7 +43,7 @@
 
 2. **Compile the project**
    ```bash
-   javac -cp src src/*.java
+   javac -cp src src/AppLauncher.java
    ```
 
 3. **Run the application**
@@ -93,4 +90,4 @@ Licensed under the [MIT License](LICENSE).
 
 Got feedback or ideas?  
 Open an [issue](https://github.com/AshmitDas19/JWeather/issues) or start a discussion.  
-Built with ☕ and clouds.
+Built with Java ❤️ and clouds.
